@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "Hello"
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    enabled: true
+server:
+  port: 9100
