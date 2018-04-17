@@ -1,0 +1,19 @@
+curl -XPOST 'localhost:9200/servicegraph/jformat/service1?pretty' -d '{
+"nodes": [
+{
+"id": "1",
+"label": "Node 1"
+},
+{
+"id": "2",
+"label": "Node 2"
+}
+],
+"edges": [
+{
+"id": "1",
+"from": "1",
+"to": "2"
+}
+]
+}' -H 'Content-Type: application/json'
