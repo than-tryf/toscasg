@@ -9,4 +9,5 @@ public class ParserApp {
     public static void main(String[] args) {
         SpringApplication.run(ParserApp.class, args);
     }
+
 }

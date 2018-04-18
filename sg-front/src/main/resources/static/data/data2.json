@@ -1,4 +1,4 @@
-curl -XPOST 'localhost:9200/servicegraph/jformat/service1?pretty' -d '{
+curl -XPOST 'localhost:9200/servicegraph/test/service1?pretty' -d '{
 "nodes": [
 {
 "id": "1",
